@@ -16,6 +16,7 @@
 		651F7B7C1EB20C40000CF775 /* TestingInfoPlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F7B7B1EB20C40000CF775 /* TestingInfoPlistTests.m */; };
 		651F7B871EB20C40000CF775 /* TestingInfoPlistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F7B861EB20C40000CF775 /* TestingInfoPlistUITests.m */; };
 		651F7B941EB20D3D000CF775 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651F7B721EB20C40000CF775 /* Info.plist */; };
+		651F7B9A1EB21042000CF775 /* myplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651F7B991EB21042000CF775 /* myplist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		651F7B821EB20C40000CF775 /* TestingInfoPlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingInfoPlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651F7B861EB20C40000CF775 /* TestingInfoPlistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingInfoPlistUITests.m; sourceTree = "<group>"; };
 		651F7B881EB20C40000CF775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651F7B991EB21042000CF775 /* myplist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myplist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				651F7B6F1EB20C40000CF775 /* LaunchScreen.storyboard */,
 				651F7B721EB20C40000CF775 /* Info.plist */,
 				651F7B611EB20C3F000CF775 /* Supporting Files */,
+				651F7B991EB21042000CF775 /* myplist.plist */,
 			);
 			path = TestingInfoPlist;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651F7B9A1EB21042000CF775 /* myplist.plist in Resources */,
 				651F7B941EB20D3D000CF775 /* Info.plist in Resources */,
 				651F7B711EB20C40000CF775 /* LaunchScreen.storyboard in Resources */,
 				651F7B6E1EB20C40000CF775 /* Assets.xcassets in Resources */,
@@ -518,6 +522,7 @@
 				651F7B8D1EB20C40000CF775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651F7B8E1EB20C40000CF775 /* Build configuration list for PBXNativeTarget "TestingInfoPlistTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				651F7B901EB20C40000CF775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651F7B911EB20C40000CF775 /* Build configuration list for PBXNativeTarget "TestingInfoPlistUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				651F7B931EB20C40000CF775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
