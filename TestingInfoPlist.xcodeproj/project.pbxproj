@@ -15,6 +15,7 @@
 		651F7B711EB20C40000CF775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651F7B6F1EB20C40000CF775 /* LaunchScreen.storyboard */; };
 		651F7B7C1EB20C40000CF775 /* TestingInfoPlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F7B7B1EB20C40000CF775 /* TestingInfoPlistTests.m */; };
 		651F7B871EB20C40000CF775 /* TestingInfoPlistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F7B861EB20C40000CF775 /* TestingInfoPlistUITests.m */; };
+		651F7B941EB20D3D000CF775 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651F7B721EB20C40000CF775 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651F7B941EB20D3D000CF775 /* Info.plist in Resources */,
 				651F7B711EB20C40000CF775 /* LaunchScreen.storyboard in Resources */,
 				651F7B6E1EB20C40000CF775 /* Assets.xcassets in Resources */,
 				651F7B6C1EB20C3F000CF775 /* Main.storyboard in Resources */,
